@@ -27,7 +27,7 @@ nav ul{
         justify-content: space-between;
 }
 
-.galeria{
+.galeriaInicio{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -35,6 +35,16 @@ nav ul{
     padding: 1%;
     justify-content: center;
 }
+
+.galeriaHistoria{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+    padding: 1%;
+    justify-content: center;
+}
+
 
 .gridFoto{
     overflow: hidden;
@@ -118,20 +128,10 @@ nav ul{
     padding: 10px;
 }
 
-
-@media only screen and (max-width: 600px) {
-    body {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-  }
-
-
 .texto {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight:lighter;
-    font-size: small;
+    font-size: medium;
     line-height: 20px;
     text-align: justify;
     margin: 10px 50px 10px 20px;
@@ -140,22 +140,54 @@ nav ul{
 
 
 .pieDePagina {
+    display: flex;
+    flex-direction: column;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: white;
-    font-size: small;
-    text-align: center;
+    font-size: medium;
+    align-items: center;
     background-color:darkblue;
+    width: auto;
 }
 
 .iconos{
         display:flex;
         flex-direction: row;
         justify-content: center;
+        width: auto;
 }
 
 
 .tarifas{
-    border: 5px solid black;
-    margin: 20px 130px 20px 80px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 200px;
 }
+
+
+@media screen and (max-width: 760px) {
+
+    .titulo{
+        font-size: small;
+    }
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .galeriaHistoria{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .pieDePagina{
+        font-size: x-small;
+    }
+}
+
 
