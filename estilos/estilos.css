@@ -45,7 +45,6 @@ nav ul{
     justify-content: center;
 }
 
-
 .gridFoto{
     overflow: hidden;
     width: 100%;
@@ -99,7 +98,6 @@ nav ul{
     margin-top: 20px;
 }
 
-
 .titulo {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size:large;
@@ -109,6 +107,7 @@ nav ul{
     word-spacing: 15px;
     color: white;
     background-color:darkblue;
+    margin-left: 5px;
 }
 
 .subtitulo {   
@@ -138,7 +137,6 @@ nav ul{
     width: 100%; 
 }
 
-
 .pieDePagina {
     display: flex;
     flex-direction: column;
@@ -157,14 +155,12 @@ nav ul{
         width: auto;
 }
 
-
 .tarifas{
     display: flex;
     flex-direction: column;
     width: 100%;
     margin-bottom: 200px;
 }
-
 
 @media screen and (max-width: 760px) {
 
