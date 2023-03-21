@@ -107,7 +107,6 @@ nav ul{
     word-spacing: 15px;
     color: white;
     background-color:darkblue;
-    margin-left: 5px;
 }
 
 .subtitulo {   
@@ -132,8 +131,7 @@ nav ul{
     font-weight:lighter;
     font-size: medium;
     line-height: 20px;
-    text-align: justify;
-    margin: 10px 50px 10px 20px;
+    margin: 10px 50px 10px 40px;
     width: 100%; 
 }
 
