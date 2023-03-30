@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    li{
+        margin-top: 10px;
+        list-style-type: none;
+        a{
+            text-decoration: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bolder;
+            color: darkslategrey;
+        }
+    }
+}
+
+a:hover{
+    color:black;
+    font-size: larger;
+}
+
+.pieDePagina {
+    display: flex;
+    flex-direction: column;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: medium;
+    align-items: center;
+    background-color:darkblue;
+    width: auto;
+}
+
+.iconos{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        width: auto;
+}
+

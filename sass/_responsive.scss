@@ -1,0 +1,26 @@
+
+@media screen and (max-width: 760px) {
+
+    .titulo{
+        font-size: small;
+    }
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .galeriaHistoria{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .pieDePagina{
+        font-size: x-small;
+    }
+}
+
+
