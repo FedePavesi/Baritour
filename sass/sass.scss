@@ -1,10 +1,10 @@
 @import "generales";
 @import "grid";
-@import "responsive";
 
 .titulo {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size:large;
+    font-weight: bolder;
     text-align:center;
     line-height: 60px;
     letter-spacing: 10px;
@@ -44,4 +44,28 @@
     flex-direction: column;
     width: 100%;
     margin-bottom: 200px;
+}
+
+@media screen and (max-width: 760px) {
+
+    .titulo{
+        font-size: small;
+    }
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .galeriaHistoria{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .pieDePagina{
+        font-size: x-small;
+    }
 }
