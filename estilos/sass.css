@@ -144,6 +144,10 @@ a:hover {
   flex-direction: row;
   padding: 10px;
 }
+.contenedor img {
+  width: 300px;
+  height: 300px;
+}
 
 .texto {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -159,10 +163,14 @@ a:hover {
   flex-direction: column;
   width: 100%;
   margin-bottom: 200px;
+  padding: 15px;
 }
 
 @media screen and (max-width: 760px) {
   .titulo {
+    font-size: small;
+  }
+  .subtitulo {
     font-size: small;
   }
   .contenedor {
@@ -171,10 +179,17 @@ a:hover {
     width: 100%;
     align-items: center;
   }
+  .contenedor .texto {
+    font-size: xx-small;
+    padding: 10px;
+  }
   .galeriaHistoria {
     display: flex;
     flex-direction: column;
     width: 100%;
+  }
+  .galeriaHistoria .parrafo {
+    font-size: xx-small;
   }
   .pieDePagina {
     font-size: x-small;
